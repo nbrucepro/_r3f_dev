@@ -1,3 +1,4 @@
 import Navbar from "./Navbar";
-
-export {Navbar};
+import About from  "./About"
+import Hero from "./Hero"
+export {Navbar,About,Hero};
