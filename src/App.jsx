@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { BrowserRouter } from 'react-router-dom'
 import { Navbar } from './components'
-import './App.css'
+import Hero from './components/Hero'
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar/>
+          <Hero/>
         </div>
       </div>
 

@@ -5,7 +5,7 @@ import { styles } from "../styles";
 // import { navLinks } from "../constants";
 
 import { logo, menu, close } from "../assets";
-
+import download from '../assets/download.webp'
 
 const Navbar = () => {
    const navLinks = [
@@ -58,14 +58,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={download} alt='logo' className='w-11 h-11 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            bruce &nbsp;
+            B &nbsp;
             <span className='sm:block hidden'> | Neza.dev</span>
           </p>
         </Link>
 
-        <ul className='list-none sm:hidden flex flex-row gap-10'>
+        <ul className='list-none sm:flex hidden flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
