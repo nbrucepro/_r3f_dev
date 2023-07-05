@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { BrowserRouter } from 'react-router-dom'
 import {Navbar,About,Hero,Experience} from './components'
+import Tech from './components/Tech'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         </div>
         <About/>
         <Experience/>
+        <Tech/>
       </div>
 
     {/* //end */}   
