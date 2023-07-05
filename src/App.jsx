@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { BrowserRouter } from 'react-router-dom'
-import {Navbar,About,Hero} from './components'
+import {Navbar,About,Hero,Experience} from './components'
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
           <Hero/>
         </div>
         <About/>
+        <Experience/>
       </div>
 
     {/* //end */}   
