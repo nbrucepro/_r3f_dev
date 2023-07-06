@@ -2,14 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { BrowserRouter } from 'react-router-dom'
-import {Navbar,About,Hero,Experience} from './components'
+import {Navbar,About,Hero,Experience,Works} from './components'
 import Tech from './components/Tech'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
+  return (  
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -19,6 +19,7 @@ function App() {
         <About/>
         <Experience/>
         <Tech/>
+        <Works/>
       </div>
 
     {/* //end */}   
