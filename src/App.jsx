@@ -2,8 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { BrowserRouter } from 'react-router-dom'
-import {Navbar,About,Hero,Experience,Works, Feedbacks} from './components'
+import {Navbar,About,Hero,Experience,Works, Feedbacks, Contact} from './components'
 import Tech from './components/Tech'
+import { StarsCanvas } from './components/canvas'
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
         <Tech/>
         <Works/>
         <Feedbacks/>
+        <div className='relative z-0'>
+          <Contact />
+          <StarsCanvas/>
+        </div>
       </div>
 
     {/* //end */}   
